@@ -43,12 +43,20 @@ not be used.
   post-booking identity space or to bookings. This is why the report cannot say whether chatters installed.
 - No duplicate rows were found in these windows (`LOG_ID` and millisecond timestamps are unique).
 
+## Naming: `j2_` is a screen set, not the booking variant
+
+The new pages are recorded as `j2_edu1`, `j2_cost` and so on. That prefix is **unrelated to the booking
+variant `J2`** in `BOOKING.GROUP_NAME`, which was effectively retired over these windows (302 bookings in
+the August window, 6 in September) while the `j2_*` pages carried 6,869 messages in September. Customers on
+these screens sit across every live booking variant — I3, J3, J4N, J4R. This report compares *screen sets*;
+the booking-variant analysis lives in the install report.
+
 ## The rollout confound — the most important caveat
 
 The `j2` pages ramped from ~17 August, crossed over the old flow around 19–23 August, and dominate by
 September. Both flows were live every day of both windows.
 
-**August is mostly the old flow; September is mostly `j2`.** An Aug→Sep movement therefore contains a
+**August is mostly the original pages; September is mostly the new screens.** An Aug→Sep movement therefore contains a
 product change as well as a calendar change, and the two cannot be fully separated. The "Old flow vs j2"
 section compares the flows *inside September alone*, which removes the calendar — that is the cleaner read.
 

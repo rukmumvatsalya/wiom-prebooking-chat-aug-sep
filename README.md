@@ -1,6 +1,6 @@
 # Pre-booking help chat — August vs September 2026
 
-Two booking flows were live at once, and they get asked different questions.
+Two sets of booking screens were live at once, and they get asked different questions.
 
 Analysis of the Wiom in-app support chat across the pre-booking pages,
 comparing **10–30 August 2026** against **1–20 September 2026**, counted against first-time app opens.
@@ -15,9 +15,14 @@ comparing **10–30 August 2026** against **1–20 September 2026**, counted aga
 
 ## The headline
 
-A new booking journey (the `j2` pages) rolled out from mid-August, crossing over the old flow around
-19–23 August. Both ran side by side throughout. The new pages shift the conversation from logistics
+A new set of booking screens rolled out from mid-August, crossing over the original pages around
+19–23 August. Both ran side by side throughout. The new screens shift the conversation from logistics
 ("where is my order", "how much") to capability ("what speed", "how many devices", "whole house?").
+
+**Naming:** these pages are recorded with a `j2_` prefix. That is a screen-set name and is **not** the
+booking variant `J2`, which was effectively retired over these windows (302 bookings in the August window,
+6 in September). For the booking-variant cut see the
+[install report](https://rukmumvatsalya.github.io/wiom-postbooking-install-aug-sep/#variants).
 
 Chat per 1,000 new users fell 106.3 → 67.9, but new users nearly doubled — read that as dilution
 first, clarity second.
